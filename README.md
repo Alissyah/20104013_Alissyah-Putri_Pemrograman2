@@ -14,9 +14,7 @@ Exception terdapat lima keyword yang digunakan oleh Java untuk menangani excepti
 
 * Tipe-tipe Exception (Checked Exception dan Unchecked Exception)
 
-```java
-Checked Exception
-```
+> Checked Exception
 
 Checked exceptions merupakan exception yang diketahui pada saat compile time. Namun, ada juga exceptions yang dicek pada saat compile time, oleh karena itu mereka disebut dengan compile time exceptions.
 
@@ -33,9 +31,8 @@ CONTOH
         }
     }
 ```
-```java
-Unchecked Exception
-```
+
+> Unchecked Exception
 
 Unchecked exception merupakan exception yang terjadi pada saat runtime. Pada saat compile time semuanya akan berjalan normal, namun ketika runtime maka akan terlempar exception ini. Oleh sebab itulah uncheked exceptions disebut juga dengan runtime exceptions.
 
@@ -53,9 +50,7 @@ public static void main(String[] args){
 
 * Menangani exception menggunakan try, catch, finally, throw dan throws
 
-```java
-try-catch
-```
+> try-catch
 
 try-catch merupakan statement penanganan eror, statement ini digunakan untuk mengurung eksekusi yang menampilkan eror dan dapat membuat program membuat program tetap berjalan tanpa dihentikan secara langsung.
 
@@ -73,9 +68,8 @@ catch(Exception e) {
   //  Block of code to handle errors
 }
 ```
-```java
-finally
-```
+
+> finally
 
 Statement ```finally``` digunakan untuk menempatkan code penting yang tetap akan dijalankan, yang nantinya blok atau statement tersebut akan mengeksekusi apakah Exception akan naik atau tidak dan apakah exception akan ditangani atau tidak.
 
@@ -121,9 +115,9 @@ atau bisa juga
 
 mobil mogok, dorong mobil, diperbaiki bengkel
 
-```java
-throw dan throws
-```
+
+> throw dan throws
+
 
 Throw digunakan untuk melempar exception dari code atau blok code apapun secara expisit. keyword throw dapat digunakan untuk melakukan pelemparan exception khusus.
 
