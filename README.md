@@ -12,6 +12,8 @@
 # TicTacToe ❌⭕🔥
 <hr>
 
+# Link Rekaman Presentasi : https://drive.google.com/file/d/1GkO6SHeWWhk7rJWGmNLQSlnAwk8GDknj/view
+
 # SINOPSIS GAME 🎬
 ❌⭕
 Seorang player akan bermain TicTacToe bersama player lainnya. Dia memiliki kesempatan berfikir dan memilih meletakkan huruf X atau O untuk memenangkan permainan. Kunci utamanya untuk memenangkan permainan ada di huruf X dan O dengan cara menempatkan 3 simbol ( X / O) dalam satu deret.
@@ -44,8 +46,8 @@ Dikarenakan salah satu player sudah memenangkan permainan atau permainan berakhi
 
 ## Mekanisme Game
 - GamePlay
- - Klik pada tempat yang masih kosong
- - Game akan terus berlanjut sampai semua kotak terisi simbol X / O
+- Klik pada tempat yang masih kosong
+- Game akan terus berlanjut sampai semua kotak terisi simbol X / O
 
 ## FLOWCHART
 ![image](https://user-images.githubusercontent.com/97183939/150293101-e328ef81-6943-41bf-bb77-7452eb9328a7.png)
@@ -93,7 +95,9 @@ Variabel merupakan sebuah wadah yang digunakan untuk penyimpanan data pada java,
 int kolom;
 ```
 Diatas merupakan contoh penerapan variabel dalam java, dimana diatas terjadi pendeklarasian variabel code dengan bertipe data integer.
+
 3. Mengelola Class
+
 Pada java dalam pengelolaan class terdapat 2 bagian yaitu :
 
 - Package
@@ -107,6 +111,7 @@ Import digunakan untuk melakukan pemanggilan sehingga, function - function dalam
 import java.util.Scanner;
 ```
 4. Inheritance
+
 Inheritance atau Pewarisan merupakan sebuah konsep Object Oriented Programming, dimana sebuah class yang baru mewarisi atau memiliki metode - metode atau bagian - bagian dari class yang sebelumnya yang sudah ada, Konsep Pewarisan ini dalam penggunaannya menggunakan sistem hirarki atau sistem yang bertingkat dimana apabila submenu tersebut lebih spesifik maka akan semakin spesifik juga isi didalamnya itu juga berlaku dalam konsep pewarisan OOP apabila semakin spesifik subclassnya maka akan semakin sedikit pula bagian - bagian yang dapat diwarisi class tersebut kepada class berikutnya, contoh dari penerapan inheritance :
 ```java
 public class Area {...}
